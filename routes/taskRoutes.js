@@ -19,8 +19,4 @@ router.post('/', protect, createTask);
 router.get('/', protect, getTasks);
 
 
-// DELETE TASK
-router.delete('/:id', protect, deleteTask);
-
-
 module.exports = router;
